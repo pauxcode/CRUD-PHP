@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+a, li {
+  text-decoration: none;
+  list-style: none;
+}
+a:visited {
+  color: inherit;
+}
+
+/*HEADER*/
+header {
+  background-color: #FFF;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50px;
+  flex-wrap: nowrap;
+}
+header nav h1 {
+  color: #0000EE;
+  width: 50%;
+}
+header nav ul {
+ display: flex; 
+}
+header nav ul > li:nth-child(1) {
+  margin-right: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.wrapper p, .wrapper h2 {
+  color: #FFF;
+}
+.wrapper a {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #FBFBFF;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+main a {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 20px;
+}
+form > input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+form input[type="submit"] {
+  background-color: #64D039;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #000;
+}
+form input[type="submit"]:hover {
+  background-color: #52B62B;
+}
